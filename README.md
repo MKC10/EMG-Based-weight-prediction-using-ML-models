@@ -1,4 +1,4 @@
-# 💪 EMG-Based Weight Measurement System Using Machine Learning
+# EMG-Based Weight Measurement System Using Machine Learning
 
 ![EMG System](docs/images/system_banner.jpg)
 
@@ -23,18 +23,18 @@
 
 This system predicts the weight being lifted in real-time by analyzing muscle electrical activity (EMG signals) during hand movements:
 
-- ✅ **Captures EMG signals** from forearm muscles using non-invasive sensors
-- ✅ **Processes signals** using Heltec WiFi LoRa32 V3 microcontroller
-- ✅ **Predicts weight** using machine learning algorithms (SVM, Regression, Decision Trees)
-- ✅ **Achieves 88.5% accuracy** with 1.2kg mean absolute error
-- ✅ **Real-time response** with <500ms prediction latency
-- ✅ **Non-invasive** and suitable for wearable integration
+-  **Captures EMG signals** from forearm muscles using non-invasive sensors
+-  **Processes signals** using Heltec WiFi LoRa32 V3 microcontroller
+-  **Predicts weight** using machine learning algorithms (SVM, Regression, Decision Trees)
+-  **Achieves 88.5% accuracy** with 1.2kg mean absolute error
+-  **Real-time response** with <500ms prediction latency
+-  **Non-invasive** and suitable for wearable integration
 
 **Unlike traditional scales**, this system provides:
-- 🔄 Continuous, real-time monitoring
-- 📊 Dynamic weight tracking during movement
-- 💡 Insights into muscle activity patterns
-- 🎯 Personalized predictions based on individual muscle signatures
+-  Continuous, real-time monitoring
+-  Dynamic weight tracking during movement
+-  Insights into muscle activity patterns
+-  Personalized predictions based on individual muscle signatures
 
 ---
 
@@ -50,15 +50,15 @@ This system predicts the weight being lifted in real-time by analyzing muscle el
 EMG signals directly measure electrical muscle activity, enabling real-time weight estimation during lifting actions. The system correlates muscle contraction patterns with lifted weight, providing continuous monitoring without interrupting natural movement.
 
 **Applications:**
-- 🏋️ **Fitness Tracking**: Monitor lifting weight and rep quality in real-time
-- 🏥 **Rehabilitation**: Track patient progress and prevent overexertion  
-- 🏭 **Ergonomic Analysis**: Assess workplace lifting tasks for safety
-- 🤖 **Assistive Devices**: Smart prosthetics and exoskeletons
-- 📊 **Sports Performance**: Analyze muscle fatigue and strength trends
+-  **Fitness Tracking**: Monitor lifting weight and rep quality in real-time
+-  **Rehabilitation**: Track patient progress and prevent overexertion  
+-  **Ergonomic Analysis**: Assess workplace lifting tasks for safety
+-  **Assistive Devices**: Smart prosthetics and exoskeletons
+-  **Sports Performance**: Analyze muscle fatigue and strength trends
 
 ---
 
-## 🛠️ Hardware Setup
+##  Hardware Setup
 
 ### System Components
 
@@ -186,7 +186,7 @@ Weight Prediction (kg)
 
 ---
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 ### Model Performance
 
@@ -345,59 +345,6 @@ EMG: 3872 | MAV: 305.1 | RMS: 389.7 | Weight: 95.0 kg ± 3.6 kg
 ---
 
 ## 📁 Project Structure
-
-```
-emg-weight-measurement/
-│
-├── 📄 README.md
-├── 📄 requirements.txt
-├── 📄 LICENSE
-│
-├── 📁 data/
-│   ├── raw/                    # Raw ADC readings
-│   ├── processed/              # Filtered & feature-extracted
-│   └── emg_dataset.csv         # Final training dataset
-│
-├── 📁 src/
-│   ├── 📁 arduino/
-│   │   ├── emg_acquisition.ino    # Heltec firmware
-│   │   └── config.h               # Pin definitions
-│   ├── 📁 preprocessing/
-│   │   ├── filtering.py           # Bandpass, notch filters
-│   │   └── feature_extraction.py  # MAV, RMS, WL, etc.
-│   ├── 📁 models/
-│   │   ├── svm_model.py           # Support Vector Machine
-│   │   ├── regression_model.py    # Linear/Polynomial/Ridge
-│   │   └── decision_tree.py       # Decision Tree
-│   ├── data_collection.py         # Collect calibration data
-│   ├── train_models.py            # Train all ML models
-│   └── predict_realtime.py        # Live prediction
-│
-├── 📁 models/
-│   └── svm_weight_predictor.pkl   # Trained model
-│
-├── 📁 notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_signal_analysis.ipynb
-│   └── 03_model_comparison.ipynb
-│
-├── 📁 docs/
-│   ├── paper/
-│   │   └── EMG_Weight_Measurement_Paper.pdf
-│   ├── hardware/
-│   │   ├── circuit_diagram.png
-│   │   ├── electrode_placement.jpg
-│   │   └── bom.xlsx
-│   └── images/
-│       ├── system_banner.jpg
-│       ├── emg_signals.png
-│       └── prediction_results.png
-│
-└── 📁 tests/
-    ├── test_preprocessing.py
-    └── test_models.py
-```
-
 ---
 
 ## 🧪 Technical Implementation Details
@@ -625,40 +572,22 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 ## 👤 Author
 
-**[Your Name]**
+**[Krishna Chandrahaasa Madiraju]**
 - 🎓 Electrical/Computer Engineering Student @ UAB
 - 💼 Interested in: Embedded Systems, Biosignal Processing, ML
-- 🔗 GitHub: [@yourusername](https://github.com/yourusername)
+- 🔗 GitHub: [@MKC10](https://github.com/MKC10/)
 - 💼 LinkedIn: [linkedin.com/in/yourname](https://linkedin.com/in/yourname)
 - 📧 Email: your.email@uab.edu
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - University of Alabama at Birmingham - Department of Electrical & Computer Engineering
-- Dr. [Advisor Name] for project guidance and mentorship
-- Lab facilities and equipment support
-- Study participants who volunteered for data collection
+- Dr. [Mirbozorgi] for project guidance and mentorship
+- e-BioTech Research Lab(Electrical and Computer Engieering Dept.)
 - Open-source communities: Arduino, ESP32, scikit-learn
 
----
-
-## 📊 Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@article{yourname2026emg,
-  title={EMG-Based Weight Measurement System Using Machine Learning},
-  author={Your Name},
-  journal={UAB Engineering Project},
-  year={2026},
-  note={Real-time weight prediction from electromyography signals}
-}
-```
-
----
 
 ## 📈 Project Statistics
 
