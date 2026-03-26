@@ -26,7 +26,7 @@ This system predicts the weight being lifted in real-time by analyzing muscle el
 -  **Captures EMG signals** from forearm muscles using non-invasive sensors
 -  **Processes signals** using Heltec WiFi LoRa32 V3 microcontroller
 -  **Predicts weight** using machine learning algorithms (SVM, Regression, Decision Trees)
--  **Achieves 88.5% accuracy** with 1.2kg mean absolute error
+-  **Achieves 88.5% accuracy** with 1.2kg mean absolute error.
 -  **Real-time response** with <500ms prediction latency
 -  **Non-invasive** and suitable for wearable integration
 
