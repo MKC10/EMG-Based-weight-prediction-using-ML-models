@@ -1,0 +1,10 @@
+Component,Model,Quantity,Purpose,Approx Cost (USD),Where to Buy
+Microcontroller,Heltec LoRa32 V3 (ESP32-S3),1,Main MCU — ADC + LoRa + WiFi — runs full pipeline,$18–22,AliExpress / Amazon
+EMG Sensor,MyoWare 2.0 Muscle Sensor (red board),1,Amplifies raw µV EMG signal to 0–3.3V readable by ADC,$38–42,SparkFun / Mouser
+Electrodes,Ag/AgCl Surface EMG Electrodes (disposable),6–10,Skin-contact sensing — 2 active + 1 reference per session,$5–8 per pack,Amazon / medical supply
+LED (indicator),5mm Blue LED,1,Visual indicator — lights on heavy load prediction,$0.10,Any electronics shop
+Resistor,220Ω through-hole,1,Current limiting for LED,$0.05,Any electronics shop
+Battery,3.7V Li-Po 2000mAh (JST PH 2.0),1,Portable power for wearable operation — 12+ hr runtime,$8–12,Adafruit / Amazon
+Breadboard,Full-size 830-tie breadboard,1,Prototyping and connections during dev,$5–7,Amazon
+Jumper Wires,Male-to-male + male-to-female assorted,20+,Board-to-board connections,$3–5 per pack,Amazon
+USB Cable,USB-A to USB-C,1,Programming + charging Heltec LoRa32 V3,$3–5,Amazon
